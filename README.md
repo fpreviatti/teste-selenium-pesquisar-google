@@ -11,3 +11,5 @@ Exemplo de automação com selenium feito em java para abrir o Chrome e procurar
 System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
 
 4)Verifique a versão do navegador e a versão do driver do selenium. O driver precisa ser correspondente à versão do chrome.
+
+Em https://chromedriver.chromium.org/downloads é possível ver as versões disponíveis do driver. Para identificar a versão do Google Chrome vá para "Ajuda", "Sobre o Google Chrome".
