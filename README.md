@@ -7,3 +7,5 @@ Clone o projeto.
 Ajuste a linha 10 da classe TesteAutomatizado com o caminho em que se encontra o driver do selenium (chromedriver.exe), passando o parâmetro do caminho, por exemplo, se o driver se encontra no C:\\ ficaria conforme abaixo:
 
 System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
+
+Verifique a versão do navegador e a versão do driver do selenium. O driver precisa ser correspondente à versão do chrome.
