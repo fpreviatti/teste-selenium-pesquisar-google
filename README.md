@@ -1,4 +1,4 @@
-# teste-selenium-pesquisar-google
+# Pesquisando no Google com Selenium -> Java
 
 Exemplo de automação com selenium feito em java para abrir o Chrome e procurar por uma palavra chave.
 
