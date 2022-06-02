@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class TesteAutomatizado {
 
     public Boolean procuraNoGoogle(String palavraChave) {
-
+//
         //abre o chrome, necessario utilizar o driver compativel com a versao do navegador
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\sacarolhas\\Documents\\teste-selenium\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
