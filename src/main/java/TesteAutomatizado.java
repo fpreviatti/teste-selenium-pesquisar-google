@@ -2,6 +2,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 
 public class TesteAutomatizado {
 
@@ -10,6 +12,7 @@ public class TesteAutomatizado {
         //abre o chrome, necessario utilizar o driver compativel com a versao do navegador
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\sacarolhas\\Documents\\teste-selenium\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
+
 // acessa o site do google
         driver.get("http://www.google.com.br/");
 // digita no campo com nome "q" do google
